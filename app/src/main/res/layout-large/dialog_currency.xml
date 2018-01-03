@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+<!--
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#2A5776"
+        android:gravity="center_vertical"
+        android:text="  Select Currency"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/abc_text_size_headline_material" />
+-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2A5776" />
+
+    <ListView
+        android:id="@+id/listViewdialogCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:choiceMode="singleChoice"
+
+
+        android:layout_weight="0.53" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/btnCurrencyDialogCancle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.5dp"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+        
+        <Button
+            android:id="@+id/btnCurrencyDialogOk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.5dp"
+            android:layout_weight="1"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</LinearLayout>

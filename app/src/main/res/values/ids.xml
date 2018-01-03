@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="radio_backup_daily" type="id">0</item>
+    <item name="radio_backup_weekly" type="id">1</item>
+    <item name="radio_backup_monthly" type="id">2</item>
+    <item name="radio_language_english" type="id">0</item>
+    <item name="radio_language_arabic" type="id">1</item>
+</resources>

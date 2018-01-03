@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">محفظة</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="settings_accounts">Accounts</string>
+    <string name="settings_summary_accounts">Add or Edit Account</string>
+    <string name="settings_header_other_settings">Other Settings</string>
+    <string name="settings_currencies">Currencies</string>
+    <string name="settings_summary_currencies">Add or Edit Currencies</string>
+    <string name="settings_categories">Categories</string>
+    <string name="settings_summary_categories">Add or Edit Categories</string>
+    <string name="settings_backup">Backup Data</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_header_basicsettings">Basic Settings</string>
+    <string name="settings_setpassword">Set Password</string>
+    <string name="settings_about">About</string>
+    <string name="dialog_account_hint">Account Name</string>
+    <string name="dialog_account_update_title">Update Account Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="action_settings_add">Add</string>
+    <string name="dialog_account_add_title">Add New Account</string>
+    <string name="dialog_account_delete_title">Delete Account</string>
+    <string name="dialog_account_delete_message">All Data related to this Account will  delete.You want to delete this Account ?</string>
+    <string name="dialog_currency_delete_message">All Data related to this Currency will  delete.You want to delete this Currency ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="account_empty_list">No Account Available</string>
+    <string name="categories_empty_list">No Category Available</string>
+    <string name="custom_icon">Click To  \nCustomise</string>
+    <string name="category_type">Category Type</string>
+    <string name="category_name">Category Name</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="enter_category_description">Category Description</string>
+    <string name="no_parent_category">No Parent Category</string>
+    <string name="customise_icon">Custom Icon</string>
+    <string name="currency_code">Code</string>
+    <string name="currency_symbol">Symbol</string>
+    <string name="action_settings_add_item">Add Item</string>
+    <string name="add_currency_rate_toast">Insert Currency Rate</string>
+    <string name="currency_added_toast">Currency Added Successfully</string>
+    <string name="currency_updated_toast">Currency Updated Successfully</string>
+    <string name="action_addnew_record">Add New Record</string>
+    <string-array name="settings_basic">
+        <item>@string/settings_accounts</item>
+        <item>@string/settings_currencies</item>
+        <item>@string/settings_categories</item>
+    </string-array>
+    <string-array name="settings_other">
+        <item>@string/settings_backup</item>
+        <item>@string/settings_setpassword</item>
+        <item>@string/settings_setlanguage</item>
+        <item>@string/settings_about</item>
+    </string-array>
+    <string name="title_activity_add_new_record">New Record</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="description">Enter Description</string>
+    <string name="amount">Amount</string>
+    <string name="action_filter">Filter Data</string>
+    <string name="action_interval">Interval</string>
+    <string name="action_filter_account">Filter Account</string>
+    <string name="action_filter_category">Filter Category</string>
+    <string name="action_filter_interval_all">All</string>
+    <string name="action_filter_interval_day">Day</string>
+    <string name="action_filter_interval_month">Month</string>
+    <string name="action_filter_interval_year">Year</string>
+    <string name="action_filter_category_all">All</string>
+    <string name="action_filter_category_expence">Expense</string>
+    <string name="action_filter_category_income">Income</string>
+    <string name="report_quickoverview">Quick Overview</string>
+    <string name="report_income">Income</string>
+    <string name="report_expence">Expenses</string>
+    <string name="report_count">Count</string>
+    <string name="report_averayday">Average (Day)</string>
+    <string name="report_averagerecord">Average (Record)</string>
+    <string name="report_total">Total</string>
+    <string name="report_startingbalance">Starting Balance</string>
+    <string name="report_netending_balance">Net Ending Balance</string>
+    <string name="report_netending_sub">Ending balance containing initial account value</string>
+    <string name="report_cashflow">Cashflow</string>
+    <string name="report_cashflow_sub">A revenue or expense stream that changes a cash account over a given period</string>
+    <string name="deshboard">Dash Board</string>
+    <string name="records">Records</string>
+    <string name="chart">Chart</string>
+    <string name="reports">Reports</string>
+    <string name="budgets">Budgets</string>
+    <string name="settings">Settings</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="last_record">Last 10 Records</string>
+    <string name="action_filter_interval_week">Week</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_filter_sort_new">Newest</string>
+    <string name="action_filter_sort_old">Oldest</string>
+    <string name="action_filter_sort_high">Highest Amount</string>
+    <string name="action_filter_sort_low">Lowest Amount</string>
+    <string name="action_record_edit">Edit Record</string>
+    <string name="action_record_delete">Delete Record</string>
+    <string name="action_record_edit_cancel">Cancel</string>
+    <string name="action_record_edit_ok">Update</string>
+    <string name="show_record_detail">Record Detail</string>
+    <string name="record_update_toast">Record Updated Successfully.</string>
+    <string name="alert_message_delete">Are You want to delete this Record?</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="record_detete_toast">Record Deleted.</string>
+    <string name="budget_detete_toast">Budget Deleted.</string>
+    <string name="category_duplicate_toast">Category Available. Try With Another Name.</string>
+    <string name="category_enter_name_toast">Enter Category Name</string>
+    <string name="category_added_toast">Category Added Successfully</string>
+    <string name="category_update_toast">Category Updated.</string>
+    <string name="alert_category_delete">All Records related to this Category is also delete.You want to delete this Category?</string>
+    <string name="add_account">Add New Account</string>
+    <string name="dialog_password">Set Password</string>
+    <string name="enable_password">Enable Password</string>
+    <string name="ok">Ok</string>
+    <string name="password_length_toast">Minimum Password length is five</string>
+    <string name="enterpassword_title">Enter Password</string>
+    <string name="conformpassword_title">Confirm Password</string>
+    <string name="password_missmatch_toast">Password Mismatch</string>
+    <string name="password_invalid_toast">Invalid Password</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="select_category">Select Categories</string>
+    <string name="budget_available">Budget Name Available</string>
+    <string name="budget_added">Budget Added</string>
+    <string name="admin_account_msg">This account is Admin Account, You dont have right to delete this account.</string>
+    <string name="type">Type</string>
+    <string name="account_available">Account Name is Available.Try another Name.</string>
+    <string name="edit_record_detail">Edit Record</string>
+    <string name="delete_record_detail">Delete Record</string>
+    <string name="select_currency">Select Currency</string>
+    <string name="name">Name :</string>
+    <string name="remain">Remain</string>
+    <string name="show_budget">Show Budget</string>
+    <string name="action_addnew_budget">Add New Budget</string>
+    <string name="edit_budget_detail">Edit Budget</string>
+    <string name="alert_message_budget_delete">Are you sure? You want to delete this budget?</string>
+    <string name="budget_updated">Budget Updated</string>
+    <string name="toast_export">File Export</string>
+    <string name="action_export">Export</string>
+    <string name="backup">Backup</string>
+    <string name="somthing_wrong">Something goes wrong..!</string>
+    <string name="dialog_backup_interval">Backup Interval</string>
+    <string name="backup_daily">Daily</string>
+    <string name="backup_weekly">Weekly</string>
+    <string name="backup_monthly">Monthly</string>
+    <string name="backup_now">Backup Now</string>
+    <string name="database_export">DataBase Exported</string>
+    <string name="import_backup">Backup is available on SD Card.Do you want to import it?</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="start">Start</string>
+    <string name="language">Language</string>
+    <string name="dialog_select_language">Select Language</string>
+    <!--<string name="language_english">English</string>
+    <string name="language_arabic">Arabic</string>
+    <string name="language_default">Default</string>-->
+    <string name="enter_rate">Enter Rate</string>
+    <string name="digit_zero">0</string>
+    <string name="digit_1">1</string>
+    <string name="digit_two">2</string>
+    <string name="digit_three">3</string>
+    <string name="digit_four">4</string>
+    <string name="digit_five">5</string>
+    <string name="digit_six">6</string>
+    <string name="digit_seven">7</string>
+    <string name="digit_eight">8</string>
+    <string name="digit_nine">9</string>
+    <string name="password">Password</string>
+    <string name="my_account">My Account</string>
+    <string name="settings_setlanguage">Set Language</string>
+    <string name="setLanguage_dialog">Set The Language Of Application</string>
+    <string-array name="currency_code">
+        <item>AED</item>
+        <item>AFN</item>
+        <item>ALL</item>
+        <item>AMD</item>
+        <item>ANG</item>
+        <item>AOA</item>
+        <item>ARS</item>
+        <item>AUD</item>
+        <item>AWG</item>
+        <item>AZN</item>
+        <item>BAM</item>
+        <item>BBD</item>
+        <item>BDT</item>
+        <item>BGN</item>
+        <item>BHD</item>
+        <item>BIF</item>
+        <item>BMD</item>
+        <item>BND</item>
+        <item>BOB</item>
+        <item>BRL</item>
+        <item>BSD</item>
+        <item>BTC</item>
+        <item>BTN</item>
+        <item>BWP</item>
+        <item>BYR</item>
+        <item>BZD</item>
+        <item>CAD</item>
+        <item>CDF</item>
+        <item>CHF</item>
+        <item>CLF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>COP</item>
+        <item>CRC</item>
+        <item>CUC</item>
+        <item>CUP</item>
+        <item>CVE</item>
+        <item>CZK</item>
+        <item>DJF</item>
+        <item>DKK</item>
+        <item>DOP</item>
+        <item>DZD</item>
+        <item>EEK</item>
+        <item>EGP</item>
+        <item>ERN</item>
+        <item>ETB</item>
+        <item>EUR</item>
+        <item>FJD</item>
+        <item>FKP</item>
+        <item>GBP</item>
+        <item>GEL</item>
+        <item>GGP</item>
+        <item>GHS</item>
+        <item>GIP</item>
+        <item>GMD</item>
+        <item>GNF</item>
+        <item>GTQ</item>
+        <item>GYD</item>
+        <item>HKD</item>
+        <item>HNL</item>
+        <item>HRK</item>
+        <item>HTG</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>IMP</item>
+        <item>INR</item>
+        <item>IQD</item>
+        <item>IRR</item>
+        <item>ISK</item>
+        <item>JEP</item>
+        <item>JMD</item>
+        <item>JOD</item>
+        <item>JPY</item>
+        <item>KES</item>
+        <item>KGS</item>
+        <item>KHR</item>
+        <item>KMF</item>
+        <item>KPW</item>
+        <item>KRW</item>
+        <item>KWD</item>
+        <item>KYD</item>
+        <item>KZT</item>
+        <item>LAK</item>
+        <item>LBP</item>
+        <item>LKR</item>
+        <item>LRD</item>
+        <item>LSL</item>
+        <item>LTL</item>
+        <item>LVL</item>
+        <item>LYD</item>
+        <item>MAD</item>
+        <item>MDL</item>
+        <item>MGA</item>
+        <item>MKD</item>
+        <item>MMK</item>
+        <item>MNT</item>
+        <item>MOP</item>
+        <item>MRO</item>
+        <item>MTL</item>
+        <item>MUR</item>
+        <item>MVR</item>
+        <item>MWK</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>MZN</item>
+        <item>NAD</item>
+        <item>NGN</item>
+        <item>NIO</item>
+        <item>NOK</item>
+        <item>NPR</item>
+        <item>NZD</item>
+        <item>OMR</item>
+        <item>PAB</item>
+        <item>PEN</item>
+        <item>PGK</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>PYG</item>
+        <item>QAR</item>
+        <item>RON</item>
+        <item>RSD</item>
+        <item>RUB</item>
+        <item>RWF</item>
+        <item>SAR</item>
+        <item>SBD</item>
+        <item>SCR</item>
+        <item>SDG</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>SHP</item>
+        <item>SLL</item>
+        <item>SOS</item>
+        <item>SRD</item>
+        <item>STD</item>
+        <item>SVC</item>
+        <item>SYP</item>
+        <item>SZL</item>
+        <item>THB</item>
+        <item>TJS</item>
+        <item>TMT</item>
+        <item>TND</item>
+        <item>TOP</item>
+        <item>TRY</item>
+        <item>TTD</item>
+        <item>TWD</item>
+        <item>TZS</item>
+        <item>UAH</item>
+        <item>UGX</item>
+        <item>USD</item>
+        <item>UYU</item>
+        <item>UZS</item>
+        <item>VEF</item>
+        <item>VND</item>
+        <item>VUV</item>
+        <item>WST</item>
+        <item>XAF</item>
+        <item>XAG</item>
+        <item>XAU</item>
+        <item>XCD</item>
+        <item>XDR</item>
+        <item>XOF</item>
+        <item>XPF</item>
+        <item>YER</item>
+        <item>ZAR</item>
+        <item>ZMK</item>
+        <item>ZMW</item>
+        <item>ZWL</item>
+    </string-array>
+    <string-array name="currency_names">
+        <item>United Arab Emirates Dirham</item>
+        <item>Afghan Afghani</item>
+        <item>Albanian Lek</item>
+        <item>Armenian Dram</item>
+        <item>Netherlands Antillean Guilder</item>
+        <item>Angolan Kwanza</item>
+        <item>Argentine Peso</item>
+        <item>Australian Dollar</item>
+        <item>Aruban Florin</item>
+        <item>Azerbaijani Manat</item>
+        <item>Bosnia-Herzegovina Convertible Mark</item>
+        <item>Barbadian Dollar</item>
+        <item>Bangladeshi Taka</item>
+        <item>Bulgarian Lev</item>
+        <item>Bahraini Dinar</item>
+        <item>Burundian Franc</item>
+        <item>Bermudan Dollar</item>
+        <item>Brunei Dollar</item>
+        <item>Bolivian Boliviano</item>
+        <item>Brazilian Real</item>
+        <item>Bahamian Dollar</item>
+        <item>Bitcoin</item>
+        <item>Bhutanese Ngultrum</item>
+        <item>Botswanan Pula</item>
+        <item>Belarusian Ruble</item>
+        <item>Belize Dollar</item>
+        <item>Canadian Dollar</item>
+        <item>Congolese Franc</item>
+        <item>Swiss Franc</item>
+        <item>Chilean Unit of Account (UF)</item>
+        <item>Chilean Peso</item>
+        <item>Chinese Yuan</item>
+        <item>Colombian Peso</item>
+        <item>Costa Rican Colón</item>
+        <item>Cuban Convertible Peso</item>
+        <item>Cuban Peso</item>
+        <item>Cape Verdean Escudo</item>
+        <item>Czech Republic Koruna</item>
+        <item>Djiboutian Franc</item>
+        <item>Danish Krone</item>
+        <item>Dominican Peso</item>
+        <item>Algerian Dinar</item>
+        <item>Estonian Kroon</item>
+        <item>Egyptian Pound</item>
+        <item>Eritrean Nakfa</item>
+        <item>Ethiopian Birr</item>
+        <item>Euro</item>
+        <item>Fijian Dollar</item>
+        <item>Falkland Islands Pound</item>
+        <item>British Pound Sterling</item>
+        <item>Georgian Lari</item>
+        <item>Guernsey Pound</item>
+        <item>Ghanaian Cedi</item>
+        <item>Gibraltar Pound</item>
+        <item>Gambian Dalasi</item>
+        <item>Guinean Franc</item>
+        <item>Guatemalan Quetzal</item>
+        <item>Guyanaese Dollar</item>
+        <item>Hong Kong Dollar</item>
+        <item>Honduran Lempira</item>
+        <item>Croatian Kuna</item>
+        <item>Haitian Gourde</item>
+        <item>Hungarian Forint</item>
+        <item>Indonesian Rupiah</item>
+        <item>Israeli New Sheqel</item>
+        <item>Manx pound</item>
+        <item>Indian Rupee</item>
+        <item>Iraqi Dinar</item>
+        <item>Iranian Rial</item>
+        <item>Icelandic Króna</item>
+        <item>Jersey Pound</item>
+        <item>Jamaican Dollar</item>
+        <item>Jordanian Dinar</item>
+        <item>Japanese Yen</item>
+        <item>Kenyan Shilling</item>
+        <item>Kyrgystani Som</item>
+        <item>Cambodian Riel</item>
+        <item>Comorian Franc</item>
+        <item>North Korean Won</item>
+        <item>South Korean Won</item>
+        <item>Kuwaiti Dinar</item>
+        <item>Cayman Islands Dollar</item>
+        <item>Kazakhstani Tenge</item>
+        <item>Laotian Kip</item>
+        <item>Lebanese Pound</item>
+        <item>Sri Lankan Rupee</item>
+        <item>Liberian Dollar</item>
+        <item>Lesotho Loti</item>
+        <item>Lithuanian Litas</item>
+        <item>Latvian Lats</item>
+        <item>Libyan Dinar</item>
+        <item>Moroccan Dirham</item>
+        <item>Moldovan Leu</item>
+        <item>Malagasy Ariary</item>
+        <item>Macedonian Denar</item>
+        <item>Myanma Kyat</item>
+        <item>Mongolian Tugrik</item>
+        <item>Macanese Pataca</item>
+        <item>Mauritanian Ouguiya</item>
+        <item>Maltese Lira</item>
+        <item>Mauritian Rupee</item>
+        <item>Maldivian Rufiyaa</item>
+        <item>Malawian Kwacha</item>
+        <item>Mexican Peso</item>
+        <item>Malaysian Ringgit</item>
+        <item>Mozambican Metical</item>
+        <item>Namibian Dollar</item>
+        <item>Nigerian Naira</item>
+        <item>Nicaraguan Córdoba</item>
+        <item>Norwegian Krone</item>
+        <item>Nepalese Rupee</item>
+        <item>New Zealand Dollar</item>
+        <item>Omani Rial</item>
+        <item>Panamanian Balboa</item>
+        <item>Peruvian Nuevo Sol</item>
+        <item>Papua New Guinean Kina</item>
+        <item>Philippine Peso</item>
+        <item>Pakistani Rupee</item>
+        <item>Polish Zloty</item>
+        <item>Paraguayan Guarani</item>
+        <item>Qatari Rial</item>
+        <item>Romanian Leu</item>
+        <item>Serbian Dinar</item>
+        <item>Russian Ruble</item>
+        <item>Rwandan Franc</item>
+        <item>Saudi Riyal</item>
+        <item>Solomon Islands Dollar</item>
+        <item>Seychellois Rupee</item>
+        <item>Sudanese Pound</item>
+        <item>Swedish Krona</item>
+        <item>Singapore Dollar</item>
+        <item>Saint Helena Pound</item>
+        <item>Sierra Leonean Leone</item>
+        <item>Somali Shilling</item>
+        <item>Surinamese Dollar</item>
+        <item>São Tomé and Príncipe Dobra</item>
+        <item>Salvadoran Colón</item>
+        <item>Syrian Pound</item>
+        <item>Swazi Lilangeni</item>
+        <item>Thai Baht</item>
+        <item>Tajikistani Somoni</item>
+        <item>Turkmenistani Manat</item>
+        <item>Tunisian Dinar</item>
+        <item>Tongan Paʻanga</item>
+        <item>Turkish Lira</item>
+        <item>Trinidad and Tobago Dollar</item>
+        <item>New Taiwan Dollar</item>
+        <item>Tanzanian Shilling</item>
+        <item>Ukrainian Hryvnia</item>
+        <item>Ugandan Shilling</item>
+        <item>United States Dollar</item>
+        <item>Uruguayan Peso</item>
+        <item>Uzbekistan Som</item>
+        <item>Venezuelan Bolívar Fuerte</item>
+        <item>Vietnamese Dong</item>
+        <item>Vanuatu Vatu</item>
+        <item>Samoan Tala</item>
+        <item>CFA Franc BEAC</item>
+        <item>Silver (troy ounce)</item>
+        <item>Gold (troy ounce)</item>
+        <item>East Caribbean Dollar</item>
+        <item>Special Drawing Rights</item>
+        <item>CFA Franc BCEAO</item>
+        <item>CFP Franc</item>
+        <item>Yemeni Rial</item>
+        <item>South African Rand</item>
+        <item>Zambian Kwacha (pre-2013)</item>
+        <item>Zambian Kwacha</item>
+        <item>Zimbabwean Dollar</item>
+    </string-array>
+    <string name="double_click_to_close_app">Please click again to close the app</string>
+    <string name="title_activity_testing_spinner">TestingSpinner</string>
+    <string name="loading_data">Loading Data...</string>
+    <string name="getway_notification">THE MOST ADVANCED INCOME AND EXPENSES TRACKER</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:drawable="@color/transeWhite"/>
+    <item
+        android:drawable="@color/white"/>
+</selector>

@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="newwalletapp.fragmentsmain.FragmentRecords"
+    >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:drawSelectorOnTop="true"
+        android:listSelector="@drawable/record_selector"
+        android:visibility="invisible"
+        android:id="@+id/listViewRecords">
+
+    </ListView>
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:listSelector="@drawable/record_selector"
+        android:id="@+id/expandableListViewRecors"
+
+
+         />
+
+
+</RelativeLayout>

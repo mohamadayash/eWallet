@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/for_splash1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:background="@color/transblue"
+            android:text="@string/getway_notification"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewStartStrip"
+        android:layout_width="135dp"
+        android:layout_height="40dp"
+        android:background="@color/transeWhite"
+        android:gravity="center"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textColor="@color/primaryColor"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="@string/start"
+
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+</FrameLayout>

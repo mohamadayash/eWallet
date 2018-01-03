@@ -1,0 +1,94 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_filter_interval"
+        android:title="@string/action_interval">
+
+        <menu>
+            <group
+                android:id="@+id/action_geoup_filter_interval"
+
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_filter_interval_all"
+
+                    android:title="@string/action_filter_interval_all" />
+                <item
+                    android:id="@+id/action_filter_interval_day"
+                    android:title="@string/action_filter_interval_day" />
+                <item
+                    android:id="@+id/action_filter_interval_week"
+                    android:title="@string/action_filter_interval_week" />
+                <item
+                    android:id="@+id/action_filter_interval_month"
+                    android:title="@string/action_filter_interval_month" />
+                <item
+                    android:id="@+id/action_filter_interval_year"
+                    android:title="@string/action_filter_interval_year" />
+            </group>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_filter_sort"
+        android:title="@string/action_sort">
+
+        <menu>
+            <group
+                android:id="@+id/action_geoup_filter_sort"
+
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_filter_sort_new"
+
+                    android:title="@string/action_filter_sort_new" />
+                <item
+                    android:id="@+id/action_filter_sort_old"
+                    android:title="@string/action_filter_sort_old" />
+                <item
+                    android:id="@+id/action_filter_sort_high"
+                    android:title="@string/action_filter_sort_high" />
+                <item
+                    android:id="@+id/action_filter_sort_low"
+                    android:title="@string/action_filter_sort_low" />
+            </group>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_filter_account"
+        android:title="@string/action_filter_account" >
+        <menu>
+        <group
+            android:id="@+id/action_group_filter_account"
+            android:checkableBehavior="single">
+        </group>
+    </menu>
+
+    </item>
+    <item
+        android:id="@+id/action_filter_category"
+        android:title="@string/action_filter_category">
+
+        <menu>
+            <group
+                android:id="@+id/action_group_filter_category"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_filter_category_all"
+                    android:title="@string/action_filter_category_all" />
+                <item
+                    android:id="@+id/action_filter_category_income"
+                    android:title="@string/action_filter_category_income" />
+                <item
+                    android:id="@+id/action_filter_category_expence"
+                    android:title="@string/action_filter_category_expence" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SettingsActivity">
+    <item
+        android:id="@+id/action_record_edit"
+        android:icon="@drawable/ic_action_record_edit"
+        android:orderInCategory="100"
+        android:title="@string/action_record_edit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_record_delete"
+        android:icon="@drawable/ic_action_record_delete"
+        android:orderInCategory="200"
+        android:title="@string/action_record_delete"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_record_edit_cancel"
+        android:orderInCategory="100"
+
+        android:title="@string/action_record_edit_cancel"
+        app:showAsAction="always" />
+    <!--android:icon="@drawable/ic_action_record_cancel"-->
+    <item
+        android:id="@+id/action_record_edit_update"
+
+        android:orderInCategory="200"
+        android:title="@string/action_record_edit_ok"
+        app:showAsAction="always" />
+    <!--android:icon="@drawable/ic_action_ok"-->
+</menu>

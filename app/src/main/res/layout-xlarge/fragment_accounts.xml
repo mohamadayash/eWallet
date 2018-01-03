@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="newwalletapp.fragments.FragmentAccounts">
+
+
+    <ListView
+        android:id="@+id/listViewAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:divider="@null"
+        android:choiceMode="singleChoice" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/account_empty_list"
+        android:gravity="clip_horizontal"
+        android:id="@+id/textViewAccountsDefaultListText" />
+
+</LinearLayout>

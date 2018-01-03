@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SettingsActivity">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_addnew"
+
+        android:orderInCategory="100"
+        android:title="@string/action_settings_add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_filter"
+        android:orderInCategory="100"
+        android:title="@string/action_filter"
+        android:icon="@drawable/ic_action_filter"
+        app:showAsAction="always"
+        />
+
+<!--
+    <item
+        android:id="@+id/action_filter_interval"
+        android:title="@string/action_interval">
+
+        <menu>
+            <group
+                android:id="@+id/action_geoup_filter_interval"
+
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_filter_interval_week"
+                    android:title="@string/action_filter_interval_week" />
+                <item
+                    android:id="@+id/action_filter_interval_month"
+                    android:title="@string/action_filter_interval_month" />
+                <item
+                    android:id="@+id/action_filter_interval_year"
+                    android:title="@string/action_filter_interval_year" />
+            </group>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_filter_account"
+        android:title="@string/action_filter_account" >
+        <menu>
+            <group
+                android:id="@+id/action_group_filter_account"
+                android:checkableBehavior="single">
+            </group>
+        </menu>
+
+    </item>
+-->
+
+</menu>

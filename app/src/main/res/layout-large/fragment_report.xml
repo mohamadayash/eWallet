@@ -1,0 +1,421 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="newwalletapp.fragmentsmain.FragmentReport">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReport"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="8"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/report_quickoverview"
+                android:textSize="14.5dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="right"
+                android:layout_weight="2"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:textSize="14.5dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/green"
+                android:text="@string/report_income"
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="14.5dp"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/report_expence"
+                android:id="@+id/textView8"
+                android:paddingRight="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="8"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/report_count"
+                android:textSize="14.5dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="right"
+                android:layout_weight="2"
+                 />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="right"
+
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/green"
+                android:text="@string/report_income"
+                android:id="@+id/textViewRecordIncomeCount" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:textColor="@color/red"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/report_expence"
+                android:paddingRight="10dp"
+                android:id="@+id/textViewRecordExpenseCount" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="8"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/report_averayday"
+                android:textSize="14.5dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="right"
+                android:layout_weight="2"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="right"
+
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/green"
+                android:text="@string/report_income"
+                android:id="@+id/textViewRecordIncomeAverageDay" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:textColor="@color/red"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/report_expence"
+                android:paddingRight="10dp"
+                android:id="@+id/textViewRecordExpenseAverageDay" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="8"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/report_averagerecord"
+                android:textSize="14.5dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="right"
+                android:layout_weight="2"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/green"
+                android:text="@string/report_income"
+                android:id="@+id/textViewRecordIncomeAverageRecord" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:textColor="@color/red"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/report_expence"
+                android:paddingRight="10dp"
+                android:id="@+id/textViewRecordExpenseAverageRecord" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="8"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/report_total"
+                android:textSize="14.5dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="right"
+                android:layout_weight="2"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="right"
+
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/green"
+                android:text="@string/report_income"
+                android:id="@+id/textViewRecordIncomeTotal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:textColor="@color/red"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/report_expence"
+                android:paddingRight="10dp"
+                android:id="@+id/textViewRecordExpenseTotal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:weightSum="10"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/report_startingbalance"
+                android:id="@+id/textView9"
+                android:textSize="14.5dp"
+                android:textStyle="bold"
+                android:layout_weight="5"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/textViewRecordStartingBalance"
+                android:layout_weight="5"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:paddingRight="10dp"
+                android:gravity="right"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/report_netending_balance"
+                    android:textSize="14.5dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/textView12"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/report_netending_sub"
+                    android:id="@+id/textView13"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="3dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/textViewRecordNetEndingBalance"
+                android:layout_weight="5"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/report_cashflow"
+                    android:textSize="14.5dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/textView14"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/report_cashflow_sub"
+                    android:id="@+id/textView15"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/textViewRecordCashFlow"
+                android:layout_weight="5"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listViewFilteredReport"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>
